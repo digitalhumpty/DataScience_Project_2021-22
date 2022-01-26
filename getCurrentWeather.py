@@ -14,9 +14,9 @@ url = ""
 resp = requests.get(url)
 
 # Convert resp to json readable data format
-data = resp.json()
+#data = resp.json()
 
-print(json.dumps(data, indent=2))
+#print(json.dumps(data, indent=2))
 
 # Pull the latitude from the JSON Data
 #lat = data["coord"]["lat"]
