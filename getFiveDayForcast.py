@@ -17,6 +17,6 @@ url = "https://api.openweathermap.org/data/2.5/onecall?lat={}&lon={}&exclude=cur
 
 resp = requests.get(url)
 
-data = "" # Fix Me
+data = resp.json() # Fix Me
 
 print(json.dumps(data, indent=2))
